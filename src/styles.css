@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "n27regular";
+  src: url("assets/fonts/n27-regular-webfont.eot");
+  src: url("assets/fonts/n27-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/n27-light-webfont.woff2") format("woff2"),
+    url("assets/fonts/n27-regular-webfont.woff") format("woff"),
+    url("assets/fonts/n27-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "n27light";
+  src: url("assets/fonts/n27-light-webfont.woff2") format("woff2"),
+    url("assets/fonts/n27-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.txt-xl {
+  font-size: 120px;
+  line-height: 105px;
+  font-weight: lighter;
+}
+
+.txt-lg {
+  font-size: 60px;
+}
+
+.txt-regular {
+  font-family: "n27regular", sans-serif;
+  line-height: 1;
+}
+
+.txt-fina {
+  font-family: "n27light", sans-serif;
+  font-weight: 300;
+}
+
+.txt-white {
+  color: #f5f5f5;
+}
+@media (max-width: 768px) {
+  .txt-xl {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: lighter;
+  }
+}

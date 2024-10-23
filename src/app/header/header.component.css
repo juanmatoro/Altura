@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+  padding: 40px;
+  background-color: transparent;
+}
